@@ -11,6 +11,9 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: GradientContainer());
+    return const Scaffold(
+        body: GradientContainer(
+      colors: [],
+    ));
   }
 }
